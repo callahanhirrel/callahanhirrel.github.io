@@ -25,8 +25,8 @@ h1 {
     width: 85vh; */
     /* height: 50%; */
     /* width: 750px; */
-    max-width: 750px;
-    margin: auto 5%;
+    /* max-width: 750px; */
+    margin: auto max(0px, (100% - 750px)/2);
     /* display: block; */
 }
 
