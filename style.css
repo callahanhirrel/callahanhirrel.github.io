@@ -31,12 +31,22 @@ h1 {
 }
 
 .header-pic {
-    height: 50%;
-    width: 50%
+    /* height: 50%;
+    width: 50%; */
+    max-height: 75%;
+    max-width: 75%;
 }
 
 a {
     text-decoration: none;
+}
+
+a.img:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo {
